@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family:  sans-serif;
+    overflow: hidden;
+}
+#main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url( /tseklis/img/tinago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.text {
+    height: 60%;
+    width: 45%;
+    position: absolute;
+    backdrop-filter: blur(2px);
+    margin: 20px;
+    top: 20%;
+    border-radius:40px ;
+    font-weight: 200;
+    white-space: nowrap;
+}
+.text p{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 35%;
+    bottom:30%;
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 1px;
+    animation: slideup 0.5s ease;
+    font-weight: 300;
+    white-space: nowrap;
+    line-height: 20px;
+}
+@keyframes slideup{
+    from{
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to{ transform: translateX(0);
+        opacity: 1;
+    }
+}
+.text h2{
+    position: absolute;
+    padding:30px;
+    top:5%;
+    color:rgb(255, 96, 4);
+    font-size:30px;
+    font-family: sans-serif;
+    animation: slideIn 0.5s ease;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+.others {
+    height: 100%;
+    width: 18%;
+    position: absolute;
+    right: 0;
+    overflow-y: auto;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+
+
+    
+    
+
+}
+.container {
+    width: 200px;
+    height: 90px;
+    margin: 10px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    transition: .5s ;
+
+
+}
+.container .orig{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight:normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    transition: .5s ;
+}
+
+.others::-webkit-scrollbar{
+    opacity: 0;
+}
+.container:hover{
+    height: 180px;
+    z-index: 1;
+}
+
+.orig p {
+    color:rgb(191, 255, 239); 
+    backdrop-filter: blur (5px);
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.esplanades,.pampams,.cathedrals,.mt,.mimbalots,.ctrees,#tinago{
+    display:none;
+}
+#box{
+    position: absolute;
+    top: 16.5%;
+    left: 260px;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.esplanades #esplanadesbox{
+        left: 38%;
+        position: absolute;
+        top: 16.5%;
+        scale: 1.5;
+        animation:  slide .5s forwards;
+        cursor: pointer;
+
+}
+.mt #mtbox{
+    left:300px;
+    position: absolute;
+    top: 16.5%;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+
+.pampams #pampamsbox{
+    left: 280px;
+    position: absolute;
+    top: 16.5%;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+.mimbalots #mimbalotsbox{
+    left:215px;
+    position: absolute;
+    top: 16.5%;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+.cathedrals #cathedralsbox{
+    left:440px;
+    position: absolute;
+    top: 16.5%;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+.ctrees #ctreesbox{
+    left: 420px;
+    position: absolute;
+    top: 16.5%;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+.tinags #tinagsbox{
+    position: absolute;
+    top: 16.5%;
+    left: 260px;
+    scale: 1.5;
+    animation:  slide .5s forwards;
+    cursor: pointer;
+}
+#file{
+    display: none;
+}
+label{
+    position: absolute;
+    top: 70%;
+    left: 10px ;
+    color: aquamarine;
+    background-color: rgba(17, 17, 17, 0.5);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    scale: .9;
+    padding: 10px;
+    font-size: small;
+    transition: .3s;
+    display: none;
+    cursor: pointer;
+
+    
+}
+label:hover{
+    scale: 1.001;
+}
+
+label i {
+    margin-right:  6px;
+
+}
+.location{
+    position: absolute;
+    top:55%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 22, 12,0.6);
+    padding: 10px;
+    font-size: small;
+    border-radius: 20px;
+    color: aquamarine;
+    left: 20px;
+    letter-spacing: 1px;
+    animation: sliding .5s ease forwards;
+
+}
+
+@keyframes sliding {
+    from{transform: translateX(-20px);
+        opacity: 0;
+    }
+    to{transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+.location span {
+    margin-right: 4px;
+}
+.location:hover{
+    text-decoration: underline;
+    transform: translateX(7px);
+}
+.pampams .location{
+    top: 67%;
+
+}
+.pampams label{
+    top: 82%;
+}
+
+.mt .location, .mimbalots .location, .cathedrals .location {
+    top:62%;
+}
+
+.mt label, .mimbalots label,.cathedrals label{
+    top: 77%;
+}
+
+@keyframes boxing {
+    from{transform: translateY(30px);
+        opacity: 0;
+    }
+    to{transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    margin:20px 10px ;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: fit-content;
+    border-radius: 20px;
+}
+li{
+    margin: 0 20px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: .3s ease;
+
+    
+}
+li a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 510;
+    letter-spacing: 1px;
+    color: rgb(253, 253, 253);
+    transition: .3s ease;
+}
+li a:hover{
+   color: rgb(14, 255, 106);
+}
+li a:active{
+    color: rgb(14, 255, 106);
+    border-bottom: 2px solid  rgb(14, 255, 106) ;
+}
+
+

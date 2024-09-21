@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrap</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url( /tseklis/img/iligan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    }
+
+.nav ul{
+    display: flex;
+    padding: 10px;
+    margin:20px 10px ;
+    background-color: rgba(0, 0, 0, 0.349);
+    width: fit-content;
+    border-radius: 20px;
+}
+.nav li{
+    margin: 0 20px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: .3s ease;
+    list-style: none;
+
+    
+}
+.nav li a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 510;
+    letter-spacing: 1px;
+    color: rgb(253, 253, 253);
+    transition: .3s ease;
+}
+.nav li a:hover{
+   color: rgb(14, 255, 106);
+}
+.nav li a:active{
+    color: rgb(14, 255, 106);
+    border-bottom: 2px solid  rgb(14, 255, 106) ;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="parent" style="background-image: url(/tseklis/img/wrap.jpg);">
+        <div class="nav">
+            <ul>
+                <li><a href="tseklis.html">Home</a></li>
+                <li><a href="checklist.html">Checklist</a></li>
+                <li><a href="wrap.html">Wrap</a></li>
+            </ul>
+        </div>
+    </div>
+    <div><h1> Wrap <p>Photos</p></h1></div>
+    
+</body>
+</html>
