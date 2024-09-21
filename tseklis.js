@@ -22,7 +22,7 @@ pampam.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'; 
@@ -34,7 +34,7 @@ esplanade.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -45,7 +45,7 @@ mt_a.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -55,7 +55,7 @@ mimbalot.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -65,7 +65,7 @@ cathedral.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -75,7 +75,7 @@ ctree.addEventListener('click',function(){
     tinags.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampam =>pampam.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -88,7 +88,7 @@ tinago.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
@@ -99,7 +99,7 @@ esplanade.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -108,7 +108,7 @@ mt_a.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -118,7 +118,7 @@ mimbalot.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -127,7 +127,7 @@ cathedral.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -136,7 +136,7 @@ ctree.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -147,7 +147,7 @@ tinago.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -157,7 +157,7 @@ pampam.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -166,7 +166,7 @@ mt_a.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -176,7 +176,7 @@ mimbalot.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
         })
@@ -185,7 +185,7 @@ cathedral.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -194,7 +194,7 @@ ctree.addEventListener('click',function(){
     esplanades.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -204,7 +204,7 @@ tinago.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -214,7 +214,7 @@ pampam.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -223,7 +223,7 @@ esplanade.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -233,7 +233,7 @@ mimbalot.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -242,7 +242,7 @@ cathedral.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -251,7 +251,7 @@ ctree.addEventListener('click',function(){
     mt.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -261,7 +261,7 @@ tinago.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -271,7 +271,7 @@ pampam.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -280,7 +280,7 @@ esplanade.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -290,7 +290,7 @@ mt_a.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -299,7 +299,7 @@ cathedral.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -308,7 +308,7 @@ ctree.addEventListener('click',function(){
     mimbalots.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -318,7 +318,7 @@ tinago.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -328,7 +328,7 @@ pampam.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -337,7 +337,7 @@ esplanade.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -347,7 +347,7 @@ mt_a.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -356,7 +356,7 @@ mimbalot.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -365,7 +365,7 @@ ctree.addEventListener('click',function(){
     cathedrals.forEach(tinags =>tinags.style.display = "none");
     ctree.style.display = "none ";
     ctrees.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/c3.jpg')";
+    bg.style.backgroundImage = "url('img/c3.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -375,7 +375,7 @@ tinago.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/tinago.jpg')";
+    bg.style.backgroundImage = "url('img/tinago.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -385,7 +385,7 @@ tinago.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     pampam.style.display = "none ";
     pampams.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/pampam.jpg')";
+    bg.style.backgroundImage = "url('img/pampam.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -394,7 +394,7 @@ esplanade.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     esplanade.style.display = "none ";
     esplanades.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/esplanade.jpg')";
+    bg.style.backgroundImage = "url('img/esplanade.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     }) 
@@ -404,7 +404,7 @@ mt_a.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     mt_a.style.display = "none ";
     mt.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mt_a.jpg')";
+    bg.style.backgroundImage = "url('img/mt_a.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -413,7 +413,7 @@ mimbalot.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     mimbalot.style.display = "none ";
     mimbalots.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/mimbalot.jpg')";
+    bg.style.backgroundImage = "url('img/mimbalot.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
@@ -422,7 +422,7 @@ cathedral.addEventListener('click',function(){
     ctrees.forEach(tinags =>tinags.style.display = "none");
     cathedral.style.display = "none ";
     cathedrals.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('/tseklis/img/cathedral.jpg')";
+    bg.style.backgroundImage = "url('img/cathedral.jpg')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     })
