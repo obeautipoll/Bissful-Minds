@@ -88,7 +88,7 @@ tinago.addEventListener('click',function(){
     pampams.forEach(tinags =>tinags.style.display = "none");
     tinago.style.display = "none ";
     tinags.forEach(pampams =>pampams.style.display = "block");
-    bg.style.backgroundImage = "url('img/tinago.jpg')";
+    bg.style.backgroundImage = "url('https://1.bp.blogspot.com/-WM3OHfrlQyI/XxQpz7WEAzI/AAAAAAAAzDk/dLLj1BgI-5QFW5Waj7EKjoR8LM4DQpAfQCLcBGAsYHQ/s1600/Tinago%2BFalls_Iligan%2BCity.JPG')";
     bg.style.backgroundPosition = "center";
     bg.style.backgroundSize = "cover";
     bg.style.transition = '.5s ease'
