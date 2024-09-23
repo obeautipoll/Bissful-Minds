@@ -48,9 +48,85 @@
 		  .dropdown-content a:hover {background-color: #f1f1f1;}
 		  .dropdown:hover .dropdown-content {display: block;}
 		  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+		  h4 {
+      color: #2d481e;
+      text-align: center;
+    }
+
+    /* Styling for social media icons */
+    .social-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links img {
+      width: 70px;
+      height: 70px;
+      margin: 10px;
+      transition: transform 0.3s ease; /* Smooth transition effect */
+    }
+
+    .social-links img:hover {
+      transform: scale(1.2); /* Icon enlarges when hovered over */
+    }
+
+    /* Contact form styling */
+    .contact-form {
+      width: 50%;
+      margin: 0 auto;
+      background-color: #c6e1b7;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form label {
+      color: #2d481e;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #446c2d;
+    }
+
+    .contact-form button {
+      background-color: #446c2d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #2d481e;
+    }
 		  </style>
 	
-		
+	<script>
+		// JS function to handle form submission
+		function submitForm(event) {
+		  event.preventDefault(); // Prevents the default form submission
+	
+		  let name = document.getElementById('name').value;
+		  let email = document.getElementById('email').value;
+		  let message = document.getElementById('message').value;
+	
+		  if (name && email && message) {
+			alert("Thank you for contacting me, " + name + "! I'll respond to your message soon.");
+			// You could add more functionality here, such as sending the form data to an email or a server.
+		  } else {
+			alert("Please fill in all fields before submitting.");
+		  }
+		}
+	  </script>
 		<center><H1 style="font-family:Lucida Sans Typewriter;color:#446c2d;font-weight:bold"> WELCOME TO MY HOME PAGE! </H1></center>
 	<hr width="100%" size="4" color="#17240f" noshade>
 
@@ -184,6 +260,27 @@
 
 <a href="https://instagram.com/blisisinisinisinisan?igshid=YmMyMTA2M2Y">
          		<img src ="IMAGES\ig.png" width="70" HEIGHT="70"></a>
+
+<br>
+<br>
+
+
+				 <div class="contact-form">
+					<form onsubmit="submitForm(event)">
+					  <label for="name">Your Name:</label>
+					  <input type="text" id="name" name="name" required>
+				
+					  <label for="email">Your Email:</label>
+					  <input type="email" id="email" name="email" required>
+				
+					  <label for="message">Your Message:</label>
+					  <textarea id="message" name="message" rows="5" required></textarea>
+				
+					  <button type="submit">Submit</button>
+					</form>
+				  </div>
+
+
 
 <H4 style="color:#2d481e;"> Last updated on 23 September 2024 by Orlene Bliss C. Nisnisan </h4>
 	
